@@ -1,0 +1,5 @@
+
+*.kotlin_module
+target/
+target/classes/META-INF/eventAPI.kotlin_module
+target/test-classes/META-INF/eventAPI.kotlin_module
