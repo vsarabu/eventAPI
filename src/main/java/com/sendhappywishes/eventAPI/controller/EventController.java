@@ -43,4 +43,9 @@ public class EventController {
     public String home() {
         return "Hello World!";
     }
+
+    @GetMapping("/hello")
+    public String hello() {
+        return "Hello anki!";
+    }
 }
