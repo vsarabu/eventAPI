@@ -1,5 +1,8 @@
 
 *.kotlin_module
-target/
+target/*
 target/classes/META-INF/eventAPI.kotlin_module
 target/test-classes/META-INF/eventAPI.kotlin_module
+.idea/workspace.xml
+.idea/workspace.xml
+target/classes/com/sendhappywishes/eventAPI/controller/EventController.class

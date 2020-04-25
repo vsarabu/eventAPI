@@ -38,4 +38,9 @@ public class EventController {
     public List<Event> findAllEvents(){
         return eventService.findAllEvents();
     }
+
+    @GetMapping("/hi")
+    public String home() {
+        return "Hello World!";
+    }
 }
